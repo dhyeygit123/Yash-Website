@@ -130,16 +130,17 @@ export default function ContactFormSection() {
               Visit our studio to discuss your project in person. We'd love to show you our work and share ideas over coffee.
             </p>
             <div className="h-[500px] bg-muted relative overflow-hidden rounded-3xl shadow-xl border-2">
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3771.8826077961855!2d72.8776594!3d19.0759837!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c6306644edc1%3A0x5da4ed8f8d648c69!2sMumbai%2C%20Maharashtra%2C%20India!5e0!3m2!1sen!2sus!4v1234567890"
-                width="100%"
-                height="100%"
-                style={{ border: 0 }}
-                allowFullScreen
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-                className="rounded-3xl"
-              />
+            <iframe
+  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d324.5048338277137!2d72.9616651650453!3d22.5511497374817!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e4c276dfe3191%3A0xfe55482bb40e8485!2sJamnagar%20Transport%20Co.!5e1!3m2!1sen!2sin!4v1761503890586!5m2!1sen!2sin"
+  width="100%"
+  height="100%"
+  style={{ border: 0 }}
+  allowFullScreen
+  loading="lazy"
+  referrerPolicy="no-referrer-when-downgrade"
+  className="rounded-3xl"
+/>
+
             </div>
           </div>
         </div>
@@ -147,3 +148,6 @@ export default function ContactFormSection() {
     </section>
   )
 }
+
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d324.5048338277137!2d72.9616651650453!3d22.5511497374817!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e4c276dfe3191%3A0xfe55482bb40e8485!2sJamnagar%20Transport%20Co.!5e1!3m2!1sen!2sin!4v1761503890586!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>

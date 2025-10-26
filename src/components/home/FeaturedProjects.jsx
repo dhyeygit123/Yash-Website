@@ -43,11 +43,10 @@ export default function FeaturedProjects() {
         <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-12">
           <div>
             <h2 className="font-serif text-4xl md:text-5xl font-bold mb-4">
-              Featured <span className="text-primary">Projects</span>
+              Our <span className="text-primary">Creations</span>
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl">
-              Explore our portfolio of exceptional spaces that showcase our commitment 
-              to design excellence and client satisfaction.
+            Where design vision meets timeless craftsmanship.
             </p>
           </div>
           <Button asChild variant="outline" className="mt-4 md:mt-0">

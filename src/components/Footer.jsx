@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 import { Mail, Phone, MapPin, Instagram, Facebook, Linkedin } from 'lucide-react'
-
+import logo from "@/assets/Vibrant Design Studio-6.png"
 export default function Footer() {
   return (
     <footer className="bg-secondary text-secondary-foreground">
@@ -8,10 +8,14 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Brand */}
           <div className="space-y-4">
-            <h3 className="font-serif text-2xl font-bold">
-              <span className="text-primary">YP</span> Design Studio
-            </h3>
-            <p className="text-sm text-muted-foreground">
+            <div className="font-serif text-2xl font-bold">
+              <img
+                src={logo}
+                alt="YP Design Studio"
+                className="h-20 w-auto object-contain" // Adjust height/width as needed for sizing
+              />
+            </div>
+            <p className="text-sm text-muted-foreground max-w-prose">
               Crafting exceptional spaces that inspire and transform the way we live and work.
             </p>
           </div>
@@ -49,15 +53,18 @@ export default function Footer() {
             <ul className="space-y-3">
               <li className="flex items-start space-x-2">
                 <MapPin className="h-4 w-4 mt-1 text-primary flex-shrink-0" />
-                <span className="text-sm">123 Design Avenue, Mumbai, India</span>
+                <span className="text-sm">10 , Patel Market , Sardar Gunj , Anand - 388001</span>
               </li>
               <li className="flex items-center space-x-2">
                 <Phone className="h-4 w-4 text-primary flex-shrink-0" />
-                <span className="text-sm">+91 98765 43210</span>
+                <span className="text-sm">
+                  +91-7990545840&nbsp;&nbsp;&nbsp;&nbsp;+91-7990618068
+                </span>
+
               </li>
               <li className="flex items-center space-x-2">
                 <Mail className="h-4 w-4 text-primary flex-shrink-0" />
-                <span className="text-sm">info@ypdesignstudio.com</span>
+                <span className="text-sm">vibrantdstudio3125@gmail.com</span>
               </li>
             </ul>
           </div>
@@ -67,7 +74,7 @@ export default function Footer() {
             <h4 className="font-semibold text-lg mb-4">Follow Us</h4>
             <div className="flex space-x-4">
               <a
-                href="https://instagram.com"
+                href="https://www.instagram.com/vibrant_dstudio?igsh=MTJ0NzdvZ2FueHdvcw=="
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-primary transition-colors"
@@ -98,7 +105,7 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-border/40 mt-8 pt-8 text-center text-sm text-muted-foreground">
-          <p>&copy; {new Date().getFullYear()} YP Design Studio. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Vibrant Design Studio. All rights reserved.</p>
         </div>
       </div>
     </footer>

@@ -8,22 +8,22 @@ export default function ContactInfo() {
     {
       icon: MapPin,
       title: "Visit Us",
-      details: ["123 Design Street", "Creative District", "Mumbai 400001, India"]
+      details: ["10 Patel Market", "Sardar Gunj", "Anand 388001, India"]
     },
     {
       icon: Phone,
       title: "Call Us",
-      details: ["+91 98765 43210", "+91 98765 43211"]
+      details: ["+91-7990545840", "+91-7990618068"]
     },
     {
       icon: Mail,
       title: "Email Us",
-      details: ["info@vibrantdesign.com", "projects@vibrantdesign.com"]
+      details: ["vibrantdstudio3125@gmail.com"]
     },
     {
       icon: Clock,
       title: "Working Hours",
-      details: ["Monday - Friday: 9:00 AM - 6:00 PM", "Saturday: 10:00 AM - 4:00 PM"]
+      details: ["Monday - Friday: 9:00 AM - 6:00 PM", "Saturday: 10:00 AM - 4:00 PM","Sunday: 10:00 AM - 4:00PM"]
     }
   ]
 

@@ -28,10 +28,8 @@ export default function Philosophy() {
           <h2 className="font-serif text-4xl md:text-5xl font-bold mb-6">
             Our Design <span className="text-primary">Philosophy</span>
           </h2>
-          <p className="text-lg text-muted-foreground">
-            We believe that great design is more than just aesthetics—it's about creating 
-            meaningful experiences that inspire, comfort, and elevate everyday living. Our 
-            approach combines timeless elegance with contemporary innovation.
+          <p className="text-xl text-muted-foreground">
+          We believe in crafting spaces that evoke emotion, balance form with purpose, and celebrate modern elegance.
           </p>
         </div>
 
